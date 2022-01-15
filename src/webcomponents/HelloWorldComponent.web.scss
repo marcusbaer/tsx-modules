@@ -1,0 +1,7 @@
+$body-color: red;
+
+:host {
+  border: 1px solid $body-color;
+  color: $body-color;
+  display: block;
+}
