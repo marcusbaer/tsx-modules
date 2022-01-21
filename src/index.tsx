@@ -1,8 +1,8 @@
 import './scss/main.scss'
 import './webcomponents'
 
-import ReactDOM from 'react-dom'
-import React, { useRef } from 'react'
+import { render } from 'react-dom'
+import React from 'react'
 
 import bar from './libs/bar'
 
@@ -42,4 +42,4 @@ const Application = () => {
   )
 }
 
-ReactDOM.render(<Application />, document.querySelector('#app'))
+render(<Application />, document.querySelector('#app'))

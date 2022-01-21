@@ -1,5 +1,4 @@
 import styles from "./HelloWorldComponent.web.scss";
-
 class HelloWorldComponent extends HTMLElement {
     shadow
 
