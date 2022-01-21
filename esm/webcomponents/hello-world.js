@@ -24,9 +24,7 @@ export default class HelloWorld extends HTMLElement {
   }
 
   set name(value) {
-    this.headlineNode.innerHTML = `
-      <h1>Hello ${value || 'world'}</h1>
-    `
+    this.headlineNode.textContent = `Hello ${value || 'world'}`
   }
 
   // async loadStyles () {

@@ -11,7 +11,7 @@ export default class MyCounter extends HTMLElement {
     this.shadow = this.attachShadow({ mode: 'open' })
     this.shadow.innerHTML = `
       <p class="counter__info">Counter value is </p>
-      <button className="counter__button">INC</button>
+      <button class="counter__button">INC</button>
     `
     this.loadStyles()
 
