@@ -6,6 +6,7 @@ import React from 'react'
 
 import bar from './libs/bar'
 
+import Header from './components/Header'
 import HelloWorld from './components/HelloWorld'
 import Counter from './components/Counter'
 
@@ -33,12 +34,13 @@ const Application = () => {
   }
 
   return (
-    <div>
+    <>
+      <Header />
       <HelloWorld name={ninja} />
       <Counter initial={4} maxHandler={maxCounterHandler} />
       <hello-world-component></hello-world-component>
       <button onClick={() => clearAlert()}>CLEAR</button>
-    </div>
+    </>
   )
 }
 
